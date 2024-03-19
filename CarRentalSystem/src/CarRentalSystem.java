@@ -16,17 +16,17 @@ public class CarRentalSystem {
 
         switch (choice) {
             case 1:
-                corolla();
+                punch();
                 break;
             case 2:
-                landcruiser();
+                thar();
                 break;
             default:
                 System.out.println("Invalid choice.");
         }
     }
 
-    public static void corolla() {
+    public static void punch() {
 
         System.out.println("Punch - That's a great choice!");
         System.out.println("TATA Punch s rent per day is rs. 5,000");
@@ -34,7 +34,7 @@ public class CarRentalSystem {
         verification();
     }
 
-    public static void landcruiser() {
+    public static void thar() {
         System.out.println("THAR - That's a great choice!");
         System.out.println("Mahendra THAR s rent per day is rs. 15,000");
         verification();
